@@ -1,8 +1,10 @@
 import Foundation
-import NVActivityIndicatorView
 import AVFoundation
 import Alamofire
+/* Third Party Framework for showing loader and Toast Message
 import Toast_Swift
+import NVActivityIndicatorView
+*/
 
 //MARK:- Debouncer Class
 class Debouncer {
@@ -26,7 +28,8 @@ class Debouncer {
 
 //MARK:- Extension UIViewController
 extension UIViewController {
-    
+  
+    /* Third Party Framework for showing loader and Toast Message
     //MARK:- Loader
     func showLoader() {
         
@@ -52,6 +55,7 @@ extension UIViewController {
     func showToastMessage(message:String) {
         self.view.makeToast(message, point: CGPoint(x: UIScreen.main.bounds.width / 2, y: (UIApplication.shared.keyWindow?.safeAreaInsets.top)! + 80), title: nil, image: nil, completion: nil)
     }
+     */
     
     //MARK:- Reachability
     func isReachable() -> Bool
